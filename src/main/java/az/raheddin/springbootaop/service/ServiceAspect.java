@@ -13,6 +13,7 @@ public class ServiceAspect {
     @Before("execution(* az.raheddin.springbootaop.service.*.*(..))")
     public void msjSerBefore(JoinPoint joinPoint){
         System.out.println(joinPoint.getArgs()[0]);
+       // System.out.println(joinPoint.getArgs()[1]); //java.lang.ArrayIndexOutOfBoundsException
         System.out.println("Before msj:");
     }
 
