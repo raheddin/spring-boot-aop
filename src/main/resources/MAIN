@@ -1,0 +1,12 @@
+@AfterReturning
+@AfterThrowing
+@After
+@Before
+@EnableAspectJAutoProxy
+@Aspect
+
+
+@Before("execution(*az.raheddin.springbootaop.service.*.save(..))")
+
+
+@After("execution(*az.raheddin.springbootaop.service.*.save(..))")
