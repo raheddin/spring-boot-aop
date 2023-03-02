@@ -76,5 +76,10 @@ public class ServiceAspect {
         return map;
     }
 
+    //joinPoint.getArgs()
+    //Arrays.toString(joinPoint.getArgs())
+    //var signature = joinPoint.getSignature();
+    //signature.getDeclaringTypeName(), signature.getName()
+
 
 }
